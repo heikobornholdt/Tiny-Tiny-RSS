@@ -152,6 +152,11 @@
 	// 2 - check first 2 octets of an address
 	// 3 - check entire address
 
+	define('SESSION_CHECK_USER_AGENT', 1);
+	// Check client user agent when validating session:
+	// 0 - disable checking
+	// 1 - enable checking
+
 	// *********************************
 	// *** Email and digest settings ***
 	// *********************************
